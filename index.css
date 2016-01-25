@@ -13,6 +13,7 @@
   -o-flex-flow: column;
   flex-flow: column;
   flex-flow: column;
+  -webkit-box-orient: vertical;
   box-orient: vertical;
   -webkit-box-flex: 1 1 auto;
   -moz-box-flex: 1 1 auto;
@@ -33,14 +34,16 @@
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  align-items: stretch;
+  -webkit-box-align: stretch;
   -webkit-align-items: stretch;
-  align-content: flex-start;
+  align-items: stretch;
   -webkit-align-content: flex-start;
-  justify-content: flex-start;
+  align-content: flex-start;
   -webkit-justify-content: flex-start;
+  -webkit-box-pack: flex-start;
   flex-pack: start;
   -ms-flex-pack: start;
+  justify-content: flex-start;
   flex-direction: row;
   -webkit-flex-flow: row;
   -moz-flex-flow: row;
@@ -48,7 +51,7 @@
   -o-flex-flow: row;
   flex-flow: row;
   flex-flow: row;
-  box-orient: horizontal;
+  -webkit-box-orient: horizontal;
   position: relative;
   overflow: hidden;
   z-index: 10;
@@ -116,15 +119,17 @@
   -o-flex-flow: row;
   flex-flow: row;
   flex-flow: row;
-  box-orient: horizontal;
-  align-items: stretch;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: stretch;
   -webkit-align-items: stretch;
-  align-content: flex-start;
+  align-items: stretch;
   -webkit-align-content: flex-start;
-  justify-content: stretch;
+  align-content: flex-start;
   -webkit-justify-content: stretch;
+  -webkit-box-pack: stretch;
   flex-pack: justify;
   -ms-flex-pack: justify;
+  justify-content: stretch;
 }
 .z-horizontal-scrollbar-fix {
   -webkit-box-flex: 1;
